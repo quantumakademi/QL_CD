@@ -9,11 +9,11 @@
 #include <stdio.h>
 #include "usdelay.h"
 
-#define QLCD_RETURN_HOME 	     0x02
+#define QLCD_RETURN_HOME       0x02
 #define QLCD_ENTRY_MODE_SET    0x04
 #define QLCD_DISPLAY_CONTROL   0x08
-#define QLCD_CURSOR_SHIFT 	   0x10
-#define QLCD_FUNCTION_SET 	   0x20
+#define QLCD_CURSOR_SHIFT      0x10
+#define QLCD_FUNCTION_SET      0x20
 #define QLCD_SET_CGRAM_ADDR    0x40
 #define QLCD_SET_DDRAM_ADDR    0x80
 #define QLCD_ENTRY_SH          0x01
